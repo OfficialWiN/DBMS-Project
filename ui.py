@@ -2,7 +2,7 @@ import pyodbc
 from tabulate import tabulate
 from textwrap import fill
 
-connection = pyodbc.connect("DSN=DBMS;UID=SA;PWD=MsSqlAni123", autocommit=True)
+connection = pyodbc.connect("DSN=DBMS_Sqlsrv;UID=SA;PWD=Mssqlani123", autocommit=True)
 mycursor = connection.cursor()
 
 
