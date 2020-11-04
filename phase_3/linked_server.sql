@@ -1,8 +1,8 @@
 EXEC sp_addlinkedserver   
-   @server = N'SEATTLE Payroll',   
+   @server = N'DBMS',   
    @srvproduct = N'',  
    @provider = N'MSDASQL',   
-   @datasrc = N'LocalServer';  
+   @datasrc = N'DBMS_Mysql';  
 GO
 
 EXEC sp_addlinkedsrvlogin
